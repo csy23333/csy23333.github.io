@@ -7,7 +7,7 @@ Vue.use(Vuex);
 //2.创建对象
 const store = new Vuex.Store({
   state: {
-    todo: ["吃饭", "睡觉", "敲代码"],
+    todo: ["吃饭", "玩游戏", "敲代码"],
     hadFinish: 0,
     all: 3,
     notFinish: 3,
